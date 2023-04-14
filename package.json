@@ -1,0 +1,32 @@
+{
+  "name": "pw-core",
+  "version": "1.0.0",
+  "description": "Automation test framework based on Playwright",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npx playwright test"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "testing"
+  ],
+  "author": "Kato",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.32.3",
+    "@typescript-eslint/eslint-plugin": "5.30.0",
+    "@typescript-eslint/parser": "5.30.0",
+    "dotenv": "16.0.3",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-typescript": "3.5.2",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.1.0",
+    "jest-expect-message": "1.0.4",
+    "jest-extended": "1.2.0",
+    "prettier": "2.2.1",
+    "typescript": "4.7.4"
+  }
+}

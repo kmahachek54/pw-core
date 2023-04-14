@@ -1,0 +1,59 @@
+local.env
+
+# Editors
+*.swp
+.idea/
+.vs/
+.vscode/
+.vscode-test
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Results
+screenshots/
+image_snapshots/
+coverage/
+test-results/
+results/
+results-e2e/
+results-raw/
+results-e2e-raw/
+playwright-report/
+allure-report/
+allure-results/
+jest-html-report/
+jest-junit-report/
+
+# Credentials
+.credentials.sh
+authTest.json
+authProd.json
+storageState*.json
+auth/
+test-results/
+playwright-report/
+/test-results/
+/playwright-report/
+/playwright/.cache/

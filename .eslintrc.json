@@ -1,0 +1,41 @@
+{
+    "env": {
+        "node": true
+    },
+    "root": true,
+    "extends": [
+        "@spscommerce/eslint-config-typescript",
+        "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "globals": {
+        "JSX": true
+    },
+    "rules": {
+        // https://eslint.org/docs/rules/no-await-in-loop#when-not-to-use-it
+        "no-await-in-loop": "off",
+        "@typescript-eslint/prefer-for-of": "off",
+        "@typescript-eslint/indent": "off",
+        "@typescript-eslint/no-unused-vars": "warn",
+        // https://github.com/microsoft/playwright/issues/8798
+        "no-empty-pattern": "off",
+        "@typescript-eslint/no-unused-expressions": "off",
+        "import/no-nodejs-modules": "off",
+        "require-atomic-updates": "off",
+        "no-mixed-operators": "off",
+        "import/named": "off",
+        "camelcase": "off",
+        "new-cap": "off",
+        "line-comment-position": "off",
+        "max-len": [
+            "error",
+            {
+                "code": 100,
+                "ignoreComments": true
+            }
+        ]
+    }
+}

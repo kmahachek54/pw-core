@@ -1,0 +1,18 @@
+{
+  "arrowParens": "avoid",
+  "printWidth": 100,
+  "semi": true,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "jsxBracketSameLine": true,
+  "overrides": [
+    {
+      "files": ".editorconfig",
+      "options": { "parser": "yaml" }
+    },
+    {
+      "files": "LICENSE",
+      "options": { "parser": "markdown" }
+    }
+  ]
+}
